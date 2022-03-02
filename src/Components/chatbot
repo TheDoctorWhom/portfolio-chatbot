@@ -1,0 +1,11 @@
+img.bot-avatar{
+width:  55px;
+border-radius:  50%;
+dispaly:  flex;
+justify-content:  center;
+align-items:  center;
+margin-right: 10px;
+}
+bot-avatar{
+  margin-right: 100px;
+}
