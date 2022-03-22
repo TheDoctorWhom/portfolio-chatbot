@@ -10,7 +10,7 @@ class MessageParser {
     if (message.includes('dog')) {
       this.actionProvider.handleDog();
     }
-    else if (message.includes('experience') || message.includes('work history')) {
+    else if (message.includes('experience') || message.includes('work history') || message.includes('background')) {
       this.actionProvider.experience();
     }
     else if (message.includes('education')) {
@@ -25,14 +25,14 @@ class MessageParser {
     else if (message.includes('email')) {
       this.actionProvider.email();
     }
-    else if (message.includes('phone')) {
+    else if (message.includes('phone')|| message.includes('call')) {
       this.actionProvider.phone();
     }
     else if (message.includes('github') || message.includes('git')) {
       this.actionProvider.github();
     }
-    else if (message.includes('linkdin')) {
-      this.actionProvider.linkdin();
+    else if (message.includes('linkedin')) {
+      this.actionProvider.linkedin();
     }
     else if (message.includes('location') || message.includes('live') || message.includes('relocate') || message.includes('relocation') || message.includes('located')) {
       this.actionProvider.location();
