@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Download from './zak_2022_resume.pdf';
 
 const Resume = () => {
