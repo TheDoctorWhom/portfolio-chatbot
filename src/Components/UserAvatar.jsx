@@ -5,8 +5,8 @@ import AvatarImg from './man-avatar-svgrepo-com.svg';
 const UserAvatar = () => {
 
   return (
-    <div class="react-chatbot-kit-user-avatar-container">
-      <img className ="" width='40px' src={AvatarImg}/>
+    <div className="react-chatbot-kit-user-avatar-container">
+      <img className="" alt="User Avatar" width='40px' src={AvatarImg}/>
     </div>
   );
 

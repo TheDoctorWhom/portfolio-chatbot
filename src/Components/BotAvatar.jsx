@@ -6,7 +6,7 @@ const BotAvatar = () => {
 
   return (
     <div className = "bot-avatar">
-      <img className ="bot-avatar" width='55px' src={AvatarImg}/>
+      <img className ="bot-avatar" alt="Bot Avatar" width='55px' src={AvatarImg}/>
     </div>
   );
 
